@@ -1,10 +1,10 @@
 const firebaseConfig = {
-    apiKey: "AIzaSyAJNG7KYkRq51cFs8qIWa2sXrAQl1ICuQI",
-    authDomain: "tixgig-f7d56.firebaseapp.com",
-    projectId: "tixgig-f7d56",
-    storageBucket: "tixgig-f7d56.appspot.com",
-    messagingSenderId: "992120553007",
-    appId: "1:992120553007:web:04488aba613598bf6890da"
+    apiKey: "AIzaSyCHCdF_TB6SxTPEthRbDtPqx2gxeXC6NL0",
+    authDomain: "ticket-booking-online-164f9.firebaseapp.com",
+    projectId: "ticket-booking-online-164f9",
+    storageBucket: "ticket-booking-online-164f9.appspot.com",
+    messagingSenderId: "353139520060",
+    appId: "1:353139520060:web:976b196b76c2b84b9f8939"
   };
 
   export default firebaseConfig;
