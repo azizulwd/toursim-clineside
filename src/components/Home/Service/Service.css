@@ -1,0 +1,38 @@
+.service {
+    background: #fff;
+    box-shadow: 0 0 10px lightgray;
+    border-radius: 10px;
+}
+.service img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-bottom: 10px;
+}
+.service .service_info {
+    padding: 0 15px;
+    padding-bottom: 20px;
+}
+.service .service_info h2 {
+    color: #673ab7;
+    margin-bottom: 15px;
+}
+.service .service_info h4 {
+    color: #3f51b5;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.service .service_info p {
+    color: #3c3c3c;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.service .service_info button {
+    background: #673ab7;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
