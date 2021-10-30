@@ -23,7 +23,7 @@
 .footer_item ul li:last-child{
     border-bottom: 0;
 }
-.footer_item ul li a, span{
+.footer_item ul li a, .footer_item ul li span{
     color: gray;
 }
 .footer_item p {

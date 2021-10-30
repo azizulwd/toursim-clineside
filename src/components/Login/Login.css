@@ -1,0 +1,37 @@
+.user_login{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.login_inner {
+    width: 500px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px lightgray;
+}
+.login_inner h1 {
+    color: #673ab7;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.login_with_google {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 50px;
+    gap: 30px;
+    width: 66%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.login_with_google img{
+    width: 50px;
+}
+.login_with_google span {
+    font-size: 20px;
+    font-weight: 600;
+    color: #363535;
+}
