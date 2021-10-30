@@ -7,7 +7,7 @@ const Header = () => {
         <div className="header">
             <div className="container header_inner">
                 <div className="logo">
-                    <Link to="/home"><h1>onlineTicket</h1></Link>
+                    <Link to="/home"><h1>TixGig</h1></Link>
                 </div>
                 <div className="navigate_menu">
                     <Link to="/home">Home</Link>
