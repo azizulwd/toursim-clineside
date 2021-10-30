@@ -36,6 +36,9 @@
 .footer_item p img {
     width: 20px;
 }
+.footer_item p span{
+    color: gray;
+}
 .footer_item .newslater_signing input {
     width: 100%;
     padding: 12px;
