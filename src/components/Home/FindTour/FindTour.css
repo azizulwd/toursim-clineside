@@ -1,0 +1,36 @@
+.find_tour{
+    margin-bottom: 70px;
+}
+.find_tour_title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.find_tour_title h1 {
+    color: #673ab7;
+    font-size: 40px;
+}
+.find_tour_inner{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 100px;
+}
+.find_tour_inner select {
+    font-size: 16px;
+    font-family: 'Poppins';
+    font-weight: 500;
+    padding: 12px;
+    outline: none;
+    border: none;
+    background: #673ab7;
+    color: #fff;
+    cursor: pointer;
+}
+.find_tour_inner button {
+    cursor: pointer;
+    border: none;
+    padding: 12px;
+    background: #673ab7;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Poppins';
+}
