@@ -1,0 +1,40 @@
+.tour_guides{
+    margin-bottom: 70px;
+}
+.tour_guide_title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.tour_guide_title h1{
+    font-size: 40px;
+    color: #673ab7;
+}
+.tour_guide_title p{
+    font-size: 18px;
+    color: rgb(27, 27, 27);
+}
+.our_guides{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+.guide {
+    text-align: center;
+    background: #fff;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px lightgray;
+}
+.guide img{
+    height: 300px;
+    margin-bottom: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.guide h3 {
+    color: #673ab7;
+}
+.guide p{
+    color: rgb(27, 27, 27);
+    font-weight: 500;
+}
