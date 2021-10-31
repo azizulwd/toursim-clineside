@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import './SingleService.css';
 
 const SingleService = () => {
     let {singleId} = useParams();
@@ -18,8 +19,17 @@ const SingleService = () => {
     },[servicesDetails]);
 
     return (
-        <div>
-            <h1>{singleServiceDetails?.name}</h1>
+        <div className="single_service_details">
+            <div className="container single_service_inner">
+                <div className="single_service_img">
+                    <img src={singleServiceDetails?.img} alt="" />
+                </div>
+                <div className="single_service_info">
+                    <h2>{singleServiceDetails?.name}</h2>
+                    <p>{singleServiceDetails?.description}</p>
+                    <button>Booking</button>
+                </div>
+            </div>
         </div>
     );
 };

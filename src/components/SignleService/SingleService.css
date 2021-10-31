@@ -1,0 +1,42 @@
+.single_service_details{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.single_service_inner {
+    display: flex;
+    grid-gap: 5%;
+    gap: 5%;
+    align-items: center;
+    background: #fff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px lightgray;
+}
+.single_service_img{
+    width: 50%;
+}
+.single_service_img img{
+    border-radius: 20px;
+}
+.single_service_info{
+    width: 45%;
+}
+.single_service_info h2 {
+    color: #673ab7;
+    margin-bottom: 20px;
+}
+.single_service_info p {
+    font-weight: 500;
+    color: #464444;
+    margin-bottom: 20px;
+}
+.single_service_info button {
+    background: #673ab7;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-family: 'Poppins';
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
