@@ -5,6 +5,7 @@ import Home from './components/Home/Home/Home';
 import Login from './components/Login/Login';
 import Footer from './components/Shared/Footer/Footer';
 import Header from './components/Shared/Header/Header';
+import SingleService from './components/SignleService/SingleService';
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/login">
             <Login></Login>
+          </Route>
+          <Route path="/service/:singleId">
+            <SingleService></SingleService>
           </Route>
         </Switch>
         <Footer></Footer>

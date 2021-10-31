@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Service.css';
 
 const Service = (props) => {
-    const {name, description, img, price} = props.service;
+    const {_id, name, description, img, price} = props.service;
 
     return (
         <div className="service">
@@ -11,7 +12,9 @@ const Service = (props) => {
                 <h2>{name}</h2>
                 <h4>${price}</h4>
                 <p>{description}</p>
-                <button>Book for ${price}</button>
+                <Link to={`/service/${_id}`}>
+                    <button>Book for ${price}</button>
+                </Link>
             </div>
         </div>
     );
