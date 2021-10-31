@@ -19,6 +19,10 @@
     font-weight: 500;
     color: #000;
 }
+.navigate_menu div{
+    display: flex;
+    gap: 20px;
+}
 .navigate_menu .logout_btn {
     background: red;
     border: none;
@@ -29,9 +33,6 @@
     border-radius: 50px;
     font-weight: 500;
     cursor: pointer;
-}
-.navigate_menu .logout_btn{
-    background: red;
 }
 .navigate_menu .login, .navigate_menu .order {
     padding: 10px 25px;
