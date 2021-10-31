@@ -34,3 +34,15 @@
     font-size: 16px;
     font-family: 'Poppins';
 }
+
+
+/* Media query */
+@media screen and (max-width: 688px){
+    .find_tour_title h1{
+        font-size: 2rem;
+    }
+    .find_tour_inner{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:20px;
+    }
+}
