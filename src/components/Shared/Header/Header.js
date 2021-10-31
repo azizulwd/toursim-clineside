@@ -18,7 +18,7 @@ const Header = () => {
                     <Link to="/booking">Booking</Link>
                     <Link to="/blog">Blog</Link>                
                     <span>{user?.displayName}</span>
-                    {user.email ? <button className="logout_btn" onClick={logOut}>Logout</button> : <Link className="login" to="/login">Login</Link>}                           
+                    {user.displayName ? <button className="logout_btn" onClick={logOut}>Logout</button> : <Link className="login" to="/login">Login</Link>}                           
                 </div>
             </div>
         </div>
