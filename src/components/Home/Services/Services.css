@@ -14,3 +14,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 25px;
 }
+
+/* Media query */
+@media screen and (max-width: 688px){
+    .services_title h1{
+        font-size: 2rem;
+    }
+    .services_inner{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
