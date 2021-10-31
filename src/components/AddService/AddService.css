@@ -38,3 +38,14 @@
     outline: none;
     cursor: pointer;
 }
+
+
+/* Media query */
+@media screen and (max-width: 688px){
+    .add_service_main{
+        padding: 0 20px;
+    }
+    .add_service{
+        width: 100%;
+    }
+}

@@ -17,15 +17,17 @@ const AddService = () => {
     };
 
     return (
-        <div className="add_service">
-            <h1>Add Service</h1>
-            <form onSubmit={handleSubmit(onSubmit)}>
-                <input {...register("name")} placeholder="Service name" />
-                <textarea {...register("description")} placeholder="Description" />
-                <input type="number" {...register("price")} placeholder="Price" />
-                <input {...register("img")} placeholder="img url" />
-                <input type="submit" />
-            </form>
+        <div className="add_service_main">
+            <div className="add_service">
+                <h1>Add Service</h1>
+                <form onSubmit={handleSubmit(onSubmit)}>
+                    <input {...register("name")} placeholder="Service name" />
+                    <textarea {...register("description")} placeholder="Description" />
+                    <input type="number" {...register("price")} placeholder="Price" />
+                    <input {...register("img")} placeholder="img url" />
+                    <input type="submit" />
+                </form>
+            </div>
         </div>
     );
 };
