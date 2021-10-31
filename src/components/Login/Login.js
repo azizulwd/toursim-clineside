@@ -1,10 +1,10 @@
 import React from 'react';
 import './Login.css';
 import googleLogin from '../../images/google-logo.png';
-import useFirebase from '../../hooks/useFirebase';
+import useAuth from '../../hooks/useAuth';
 
 const Login = () => {
-    const {signInWithGoogle} = useFirebase();
+    const {signInWithGoogle} = useAuth();
 
     return (
         <div className="user_login">
