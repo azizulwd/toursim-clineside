@@ -38,3 +38,14 @@
     color: rgb(27, 27, 27);
     font-weight: 500;
 }
+
+
+/* Media query */
+@media screen and (max-width: 688px){
+    .tour_guide_title h1{
+        font-size: 2rem;
+    }
+    .our_guides{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
