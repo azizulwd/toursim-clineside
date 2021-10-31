@@ -22,6 +22,7 @@
 .navigate_menu div{
     display: flex;
     gap: 20px;
+    align-items: center;
 }
 .navigate_menu .logout_btn {
     background: red;
@@ -34,7 +35,7 @@
     font-weight: 500;
     cursor: pointer;
 }
-.navigate_menu .login, .navigate_menu .order {
+.navigate_menu .login, .navigate_menu .order, .navigate_menu .manage_order, .navigate_menu .add_new_service {
     padding: 10px 25px;
     border-radius: 40px;
 }
@@ -42,7 +43,7 @@
     background: #673ab7;
     color: #fff;
 }
-.navigate_menu .order{
+.navigate_menu .order, .navigate_menu .manage_order, .navigate_menu .add_new_service{
     background: #000;
     color: #fff;
 }

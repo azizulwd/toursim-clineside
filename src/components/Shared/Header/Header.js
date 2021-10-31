@@ -13,13 +13,12 @@ const Header = () => {
                     <Link to="/home"><h1>TixGig</h1></Link>
                 </div>
                 <div className="navigate_menu">
-                    <Link to="/home">Home</Link>
-                    <Link to="/contact">Contact</Link>
-                    <Link to="/booking">Booking</Link>
-                    <Link to="/blog">Blog</Link>                
+                    <Link to="/home">Home</Link>             
+                    {user?.displayName ? <div> <Link className="order" to="/order">My Order</Link>
+                    <Link className="manage_order" to="/manageorder">Manage Order</Link>
+                    <Link className="add_new_service" to="/addservice">Add New Service</Link>
                     <span>{user?.displayName}</span>
-                    {user?.displayName ? <div><button className="logout_btn" onClick={logOut}>Logout</button>
-                    <Link className="order" to="/order">My Order</Link>
+                    <button className="logout_btn" onClick={logOut}>Logout</button>
                     </div> : <Link className="login" to="/login">Login</Link>}                           
                 </div>
             </div>
