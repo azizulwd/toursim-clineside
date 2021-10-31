@@ -8,7 +8,7 @@ const SingleService = () => {
     const [singleServiceDetails, setSingleServiceDetails] = useState({});
 
     useEffect(()=>{
-        fetch('http://localhost:5000/services')
+        fetch('https://grim-vampire-40155.herokuapp.com/services')
         .then(res => res.json())
         .then(data => setServicesDetails(data));
     }, []);
