@@ -40,3 +40,24 @@
     border-radius: 5px;
     cursor: pointer;
 }
+
+
+/* Media query */
+@media screen and (max-width: 688px){
+    .single_service_details{
+        padding: 0 20px;
+    }
+    .single_service_inner{
+        flex-direction: column;
+        padding: 15px;
+    }
+    .single_service_img{
+        width: 100%;
+    }
+    .single_service_img img{
+        margin-bottom: 20px;
+    }
+    .single_service_info{
+        width: 100%;
+    }
+}
