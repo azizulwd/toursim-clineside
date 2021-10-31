@@ -3,6 +3,7 @@ import './App.css';
 import AddService from './components/AddService/AddService';
 import Home from './components/Home/Home/Home';
 import Login from './components/Login/Login';
+import PrivateRoute from './components/PrivateRoute/PrivateRoute';
 import Footer from './components/Shared/Footer/Footer';
 import Header from './components/Shared/Header/Header';
 import SingleService from './components/SignleService/SingleService';
@@ -27,9 +28,9 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/service/:singleId">
+            <PrivateRoute path="/service/:singleId">
               <SingleService></SingleService>
-            </Route>
+            </PrivateRoute>
           </Switch>
           <Footer></Footer>
         </BrowserRouter>
